@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -3.148
+TNS   : -62.306
+
+Type  : Slow 1100mV 85C Model Setup 'feqdev:f|tmp'
+Slack : -1.563
+TNS   : -6.405
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -1.470
+TNS   : -1.470
+
+Type  : Slow 1100mV 85C Model Hold 'feqdev:f|tmp'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -22.187
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'feqdev:f|tmp'
+Slack : -0.724
+TNS   : -6.689
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -3.164
+TNS   : -62.943
+
+Type  : Slow 1100mV 0C Model Setup 'feqdev:f|tmp'
+Slack : -1.636
+TNS   : -6.721
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -1.457
+TNS   : -1.457
+
+Type  : Slow 1100mV 0C Model Hold 'feqdev:f|tmp'
+Slack : 0.276
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -22.214
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'feqdev:f|tmp'
+Slack : -0.724
+TNS   : -6.697
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -0.957
+TNS   : -14.964
+
+Type  : Fast 1100mV 85C Model Setup 'feqdev:f|tmp'
+Slack : -0.282
+TNS   : -0.501
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -0.482
+TNS   : -0.482
+
+Type  : Fast 1100mV 85C Model Hold 'feqdev:f|tmp'
+Slack : 0.057
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.282
+TNS   : -1.987
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'feqdev:f|tmp'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -0.913
+TNS   : -13.005
+
+Type  : Fast 1100mV 0C Model Setup 'feqdev:f|tmp'
+Slack : -0.242
+TNS   : -0.373
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -0.545
+TNS   : -0.545
+
+Type  : Fast 1100mV 0C Model Hold 'feqdev:f|tmp'
+Slack : 0.037
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.287
+TNS   : -2.049
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'feqdev:f|tmp'
+Slack : 0.130
+TNS   : 0.000
+
+------------------------------------------------------------

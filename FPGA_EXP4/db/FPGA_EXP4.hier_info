@@ -1,0 +1,126 @@
+|FPGA_EXP4
+clk => trans2:t2.clk
+clk => decod4to7:d.clk
+clk => counter:c.clk
+rfromk[0] => trans2:t2.rfk[0]
+rfromk[1] => trans2:t2.rfk[1]
+rfromk[2] => trans2:t2.rfk[2]
+rfromk[3] => trans2:t2.rfk[3]
+wtk[0] <= trans:t1.scan[0]
+wtk[1] <= trans:t1.scan[1]
+wtk[2] <= trans:t1.scan[2]
+wtk[3] <= trans:t1.scan[3]
+led_com <= <VCC>
+seven[0] <= decod4to7:d.seven[0]
+seven[1] <= decod4to7:d.seven[1]
+seven[2] <= decod4to7:d.seven[2]
+seven[3] <= decod4to7:d.seven[3]
+seven[4] <= decod4to7:d.seven[4]
+seven[5] <= decod4to7:d.seven[5]
+seven[6] <= decod4to7:d.seven[6]
+
+
+|FPGA_EXP4|trans:t1
+inpu[0] => Equal0.IN1
+inpu[0] => Equal1.IN0
+inpu[0] => Equal2.IN1
+inpu[0] => Equal3.IN1
+inpu[1] => Equal0.IN0
+inpu[1] => Equal1.IN1
+inpu[1] => Equal2.IN0
+inpu[1] => Equal3.IN0
+scan[0] <= scan.DB_MAX_OUTPUT_PORT_TYPE
+scan[1] <= scan.DB_MAX_OUTPUT_PORT_TYPE
+scan[2] <= scan.DB_MAX_OUTPUT_PORT_TYPE
+scan[3] <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP4|trans2:t2
+clk => outpu[0]~reg0.CLK
+clk => outpu[1]~reg0.CLK
+clk => outpu[2]~reg0.CLK
+clk => outpu[3]~reg0.CLK
+rfk[0] => Mux0.IN19
+rfk[0] => Mux1.IN19
+rfk[0] => Mux2.IN19
+rfk[0] => Mux3.IN19
+rfk[1] => Mux0.IN18
+rfk[1] => Mux1.IN18
+rfk[1] => Mux2.IN18
+rfk[1] => Mux3.IN18
+rfk[2] => Mux0.IN17
+rfk[2] => Mux1.IN17
+rfk[2] => Mux2.IN17
+rfk[2] => Mux3.IN17
+rfk[3] => Mux0.IN16
+rfk[3] => Mux1.IN16
+rfk[3] => Mux2.IN16
+rfk[3] => Mux3.IN16
+rft[0] => Mux0.IN23
+rft[0] => Mux1.IN23
+rft[0] => Mux2.IN23
+rft[0] => Mux3.IN23
+rft[1] => Mux0.IN22
+rft[1] => Mux1.IN22
+rft[1] => Mux2.IN22
+rft[1] => Mux3.IN22
+rft[2] => Mux0.IN21
+rft[2] => Mux1.IN21
+rft[2] => Mux2.IN21
+rft[2] => Mux3.IN21
+rft[3] => Mux0.IN20
+rft[3] => Mux1.IN20
+rft[3] => Mux2.IN20
+rft[3] => Mux3.IN20
+outpu[0] <= outpu[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outpu[1] <= outpu[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outpu[2] <= outpu[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outpu[3] <= outpu[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP4|decod4to7:d
+clk => ~NO_FANOUT~
+four[0] => Mux0.IN19
+four[0] => Mux1.IN19
+four[0] => Mux2.IN19
+four[0] => Mux3.IN19
+four[0] => Mux4.IN19
+four[0] => Mux5.IN19
+four[0] => Mux6.IN19
+four[1] => Mux0.IN18
+four[1] => Mux1.IN18
+four[1] => Mux2.IN18
+four[1] => Mux3.IN18
+four[1] => Mux4.IN18
+four[1] => Mux5.IN18
+four[1] => Mux6.IN18
+four[2] => Mux0.IN17
+four[2] => Mux1.IN17
+four[2] => Mux2.IN17
+four[2] => Mux3.IN17
+four[2] => Mux4.IN17
+four[2] => Mux5.IN17
+four[2] => Mux6.IN17
+four[3] => Mux0.IN16
+four[3] => Mux1.IN16
+four[3] => Mux2.IN16
+four[3] => Mux3.IN16
+four[3] => Mux4.IN16
+four[3] => Mux5.IN16
+four[3] => Mux6.IN16
+seven[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seven[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seven[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seven[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seven[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seven[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seven[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP4|counter:c
+clk => tmp[0].CLK
+clk => tmp[1].CLK
+cnt[0] <= tmp[0].DB_MAX_OUTPUT_PORT_TYPE
+cnt[1] <= tmp[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

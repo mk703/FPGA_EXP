@@ -1,0 +1,40 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+
+ENTITY checker IS
+PORT(
+	dat_buf0 : IN std_logic_vector (3 DOWNTO 0);
+	dat_buf1 : IN std_logic_vector (3 DOWNTO 0);
+	dat_buf2 : IN std_logic_vector (3 DOWNTO 0);
+	dat_buf3 : IN std_logic_vector (3 DOWNTO 0);
+	dat_buf4 : IN std_logic_vector (3 DOWNTO 0);
+	dat_buf5 : IN std_logic_vector (3 DOWNTO 0);
+	dat_buf6 : IN std_logic_vector (3 DOWNTO 0);
+	dat_buf7 : IN std_logic_vector (3 DOWNTO 0);
+	checker_en : IN std_logic;
+	result : OUT std_logic
+);
+END checker;
+
+ARCHITECTURE bahave OF checker IS
+dat_sav0 : std_logic_vector (3 DOWNTO 0) := "0001";
+dat_sav1 : std_logic_vector (3 DOWNTO 0) := "0010";
+dat_sav2 : std_logic_vector (3 DOWNTO 0) := "0011";
+dat_sav3 : std_logic_vector (3 DOWNTO 0) := "0100";
+dat_sav4 : std_logic_vector (3 DOWNTO 0) := "0101";
+dat_sav5 : std_logic_vector (3 DOWNTO 0) := "0110";
+dat_sav6 : std_logic_vector (3 DOWNTO 0) := "0111";
+dat_sav7 : std_logic_vector (3 DOWNTO 0) := "1000";
+BEGIN
+	result <= '1' WHEN 	dat_buf0 = dat_sav0 AND
+								dat_buf1 = dat_sav0 AND
+								dat_buf2 = dat_sav0 AND
+								dat_buf3 = dat_sav0 AND
+								dat_buf4 = dat_sav0 AND
+								dat_buf5 = dat_sav0 AND
+								dat_buf6 = dat_sav0 AND
+								dat_buf7 = dat_sav0 AND
+								checker_en = '1' ELSE
+			<= '0';
+END behave;

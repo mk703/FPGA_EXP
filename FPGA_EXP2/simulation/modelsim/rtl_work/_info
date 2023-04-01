@@ -1,0 +1,191 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA_EXP2/simulation/modelsim
+T_opt
+!s110 1678263924
+VemMZ4M3MAjb:aAMYDfhoQ0
+04 12 7 work fpga_exp2_tb arch_tb 1
+=1-6c0b849139b1-64084673-2ed-1ea0
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+Edetector
+Z1 w1678263604
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z6 8D:/FPGA_EXP2/Detector.vhd
+Z7 FD:/FPGA_EXP2/Detector.vhd
+l0
+L5
+V_j?2N=1g2>gS[^T[R1^nI0
+!s100 <SQal>>Z^W[^j[?AUVWYf2
+Z8 OL;C;10.7;67
+31
+Z9 !s110 1678263923
+!i10b 1
+Z10 !s108 1678263923.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP2/Detector.vhd|
+Z12 !s107 D:/FPGA_EXP2/Detector.vhd|
+!i113 0
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Adetect
+R2
+R3
+R4
+R5
+DEx4 work 8 detector 0 22 _j?2N=1g2>gS[^T[R1^nI0
+l18
+L14
+VUQ?>GUT0F37;S9OKhDk713
+!s100 1V<Uf:SLa7nfgfR;IOZc63
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Efpga_exp2
+Z15 w1678263662
+R2
+R3
+R4
+R5
+R0
+Z16 8D:/FPGA_EXP2/FPGA_EXP2.vhd
+Z17 FD:/FPGA_EXP2/FPGA_EXP2.vhd
+l0
+L5
+VgRU[ba6_8Jk4Niam[F_Bc0
+!s100 CDi`0lba_KV?]afJ`==M=0
+R8
+31
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP2/FPGA_EXP2.vhd|
+Z19 !s107 D:/FPGA_EXP2/FPGA_EXP2.vhd|
+!i113 0
+R13
+R14
+Afpga_exp22
+R2
+R3
+R4
+R5
+DEx4 work 9 fpga_exp2 0 22 gRU[ba6_8Jk4Niam[F_Bc0
+l36
+L14
+V<1L=7__DQelVfXjf3g3I;3
+!s100 NXMfYY?2TVaolRcEAd?i00
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 0
+R13
+R14
+Efpga_exp2_tb
+Z20 w1678263891
+R2
+R3
+R4
+R5
+R0
+Z21 8D:/FPGA_EXP2/FPGA_EXP2_tb.vhd
+Z22 FD:/FPGA_EXP2/FPGA_EXP2_tb.vhd
+l0
+L5
+V^cggJZ;`U7G9c7W^Fzg=k0
+!s100 ;@?mfm;b`GQToSL0]@njK2
+R8
+31
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP2/FPGA_EXP2_tb.vhd|
+Z24 !s107 D:/FPGA_EXP2/FPGA_EXP2_tb.vhd|
+!i113 0
+R13
+R14
+Aarch_tb
+R2
+R3
+R4
+R5
+DEx4 work 12 fpga_exp2_tb 0 22 ^cggJZ;`U7G9c7W^Fzg=k0
+l21
+L8
+V^[NzajVcN`>n:R4@aYON33
+!s100 ]^0:[El10o3V9E5Fe_0950
+R8
+31
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 0
+R13
+R14
+Egenerator
+Z25 w1678261888
+R2
+R3
+R4
+R5
+R0
+Z26 8D:/FPGA_EXP2/Generater.vhd
+Z27 FD:/FPGA_EXP2/Generater.vhd
+l0
+L5
+VTTlEP8^PaVa]LbL;l]goi1
+!s100 EfM0SnT:[Re_C[6_c8f793
+R8
+31
+R9
+!i10b 1
+R10
+Z28 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP2/Generater.vhd|
+Z29 !s107 D:/FPGA_EXP2/Generater.vhd|
+!i113 0
+R13
+R14
+Agene
+R2
+R3
+R4
+R5
+DEx4 work 9 generator 0 22 TTlEP8^PaVa]LbL;l]goi1
+l18
+L14
+VHlXc:N2BPKojTQN9h_2RD0
+!s100 Bmf>:Z0KT;SORDTFboGFa2
+R8
+31
+R9
+!i10b 1
+R10
+R28
+R29
+!i113 0
+R13
+R14

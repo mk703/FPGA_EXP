@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'feqdev:f|tmp'
+Slack : -4.283
+TNS   : -18.478
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -2.816
+TNS   : -44.799
+
+Type  : Slow 1100mV 85C Model Setup 'checker_en'
+Slack : -0.503
+TNS   : -3.792
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -2.048
+TNS   : -2.048
+
+Type  : Slow 1100mV 85C Model Hold 'checker_en'
+Slack : -2.008
+TNS   : -51.767
+
+Type  : Slow 1100mV 85C Model Hold 'feqdev:f|tmp'
+Slack : 0.667
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -17.804
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'feqdev:f|tmp'
+Slack : -0.724
+TNS   : -12.392
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'checker_en'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'feqdev:f|tmp'
+Slack : -4.403
+TNS   : -18.465
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -2.920
+TNS   : -45.082
+
+Type  : Slow 1100mV 0C Model Setup 'checker_en'
+Slack : -0.449
+TNS   : -3.943
+
+Type  : Slow 1100mV 0C Model Hold 'checker_en'
+Slack : -2.231
+TNS   : -51.884
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -2.026
+TNS   : -2.026
+
+Type  : Slow 1100mV 0C Model Hold 'feqdev:f|tmp'
+Slack : 0.635
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -17.794
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'feqdev:f|tmp'
+Slack : -0.724
+TNS   : -12.343
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'checker_en'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'feqdev:f|tmp'
+Slack : -1.326
+TNS   : -3.998
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -0.896
+TNS   : -9.947
+
+Type  : Fast 1100mV 85C Model Setup 'checker_en'
+Slack : 0.108
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'checker_en'
+Slack : -1.019
+TNS   : -28.311
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -0.731
+TNS   : -0.731
+
+Type  : Fast 1100mV 85C Model Hold 'feqdev:f|tmp'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.372
+TNS   : -1.732
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'checker_en'
+Slack : -0.025
+TNS   : -0.058
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'feqdev:f|tmp'
+Slack : 0.050
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'feqdev:f|tmp'
+Slack : -1.255
+TNS   : -3.353
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -0.847
+TNS   : -8.385
+
+Type  : Fast 1100mV 0C Model Setup 'checker_en'
+Slack : 0.254
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'checker_en'
+Slack : -1.021
+TNS   : -28.905
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -0.773
+TNS   : -0.773
+
+Type  : Fast 1100mV 0C Model Hold 'feqdev:f|tmp'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.353
+TNS   : -1.761
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'checker_en'
+Slack : -0.017
+TNS   : -0.023
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'feqdev:f|tmp'
+Slack : 0.080
+TNS   : 0.000
+
+------------------------------------------------------------

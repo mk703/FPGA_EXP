@@ -1,0 +1,8 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164;
+USE ieee.std_logic_unsigned;
+
+ENTITY counter IS
+PORT(
+	
+)

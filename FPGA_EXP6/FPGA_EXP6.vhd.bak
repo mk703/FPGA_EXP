@@ -1,0 +1,12 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY FPGA_EXP4 IS
+PORT(
+	clk : IN std_logic;
+	rfromk : IN std_logic_vector(3 DOWNTO 0);
+	wtk : OUT std_logic_vector(3 DOWNTO 0);
+	led_com : OUT std_logic;
+	seven : OUT std_logic_vector(6 DOWNTO 0)
+);
+END FPGA_EXP4;

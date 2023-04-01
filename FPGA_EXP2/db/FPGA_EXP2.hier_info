@@ -1,0 +1,63 @@
+|FPGA_EXP2
+clk => feqdev:f.clk
+reset => detector:d.reset
+reset => generator:g.reset
+sel => generator:g.sel
+detector_out <= detector:d.detector_out
+generator_out <= generator:g.dataout
+
+
+|FPGA_EXP2|feqdev:f
+clk => tmp.CLK
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk => cnt[7].CLK
+clk => cnt[8].CLK
+clk => cnt[9].CLK
+clk => cnt[10].CLK
+clk => cnt[11].CLK
+clk => cnt[12].CLK
+clk => cnt[13].CLK
+clk => cnt[14].CLK
+clk => cnt[15].CLK
+clk => cnt[16].CLK
+clk => cnt[17].CLK
+clk => cnt[18].CLK
+clk => cnt[19].CLK
+clk => cnt[20].CLK
+clk => cnt[21].CLK
+clk => cnt[22].CLK
+clk => cnt[23].CLK
+clk => cnt[24].CLK
+clk2500 <= tmp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP2|detector:d
+clk => Crst~1.DATAIN
+reset => Crst~3.DATAIN
+datainput => Nxst.S1.DATAB
+datainput => Nxst.S2.DATAB
+datainput => Nxst.S3.DATAB
+datainput => Nxst.S5.DATAB
+datainput => Nxst.S8.DATAB
+datainput => Nxst.S9.DATAB
+datainput => Selector0.IN1
+datainput => Nxst.S4.DATAB
+datainput => Nxst.S6.DATAB
+datainput => Nxst.S7.DATAB
+detector_out <= detector_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP2|generator:g
+clk => Crst~1.DATAIN
+reset => Crst~3.DATAIN
+sel => Selector0.IN1
+sel => Selector0.IN0
+dataout <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+

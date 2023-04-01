@@ -1,0 +1,37 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity FPGA_EXP5 is
+port(
+	rst_n : in std_logic;
+	clk : in std_logic;
+	output : out std_logic_vector(7 downto 0)
+	);
+end FPGA_EXP5;
+
+architecture arch of FPGA_EXP5 is
+	signal wire_1 : std_logic_vector(9 downto 0);
+	signal wire_2 : std_logic_vector(7 downto 0);
+component mystorage
+PORT
+	(
+		address		: IN STD_LOGIC_VECTOR (9 DOWNTO 0);
+		clock		: IN STD_LOGIC  := '1';
+		q		: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
+	);
+end component;
+
+component counter
+port(
+	rst_n : in std_logic;
+	clk : in std_logic;
+	op: out std_logic_vector(9 downto 0)
+	);
+end component;
+
+begin
+   output<=wire_2;
+	a0: counter_zzj port map(rst_n,clk,wire_1);
+   a1: mystorage port map(wire_1,clk,wire_2);
+	
+end arch;

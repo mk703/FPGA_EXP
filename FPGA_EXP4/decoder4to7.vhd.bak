@@ -1,0 +1,13 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY decod4to7 IS
+PORT(
+	four : IN std_logic_vector (3 DOWNTO 0);
+	seven : OUT std_logic_vector(6 DOWNTO 0)
+);
+
+ARCHITECTURE behave OF decod4to7 IS
+BEGIN
+	
+END behave;
