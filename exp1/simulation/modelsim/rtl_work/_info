@@ -1,0 +1,97 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/exp1/simulation/modelsim
+T_opt
+!s110 1678689490
+V=5aKa4E][obXHQ@EEI;H82
+04 12 7 work fpga_exp1_tb arch_tb 1
+=1-6c0b8490e0d8-640ec4d1-37d-5a0
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+Efpga_exp1
+Z1 w1678258176
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z4 8E:/exp1/exp1.vhd
+Z5 FE:/exp1/exp1.vhd
+l0
+L4
+VzCE<ClPhRS:PG@kVGcl]j0
+!s100 ce8Y3zd>Q@PQG==GA:om20
+Z6 OL;C;10.7;67
+31
+Z7 !s110 1678689488
+!i10b 1
+Z8 !s108 1678689487.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/exp1/exp1.vhd|
+Z10 !s107 E:/exp1/exp1.vhd|
+!i113 0
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aarch_exp1
+R2
+R3
+DEx4 work 9 fpga_exp1 0 22 zCE<ClPhRS:PG@kVGcl]j0
+l13
+L11
+V<`_IRO9RB83^A`P_dGAN90
+!s100 l3;dCU7Jb@gN5JAi`N3:01
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Efpga_exp1_tb
+Z13 w1678258484
+R2
+R3
+R0
+Z14 8E:/exp1/FPGA_EXP1_tb.vhd
+Z15 FE:/exp1/FPGA_EXP1_tb.vhd
+l0
+L4
+V1:<L1_keD8H<k0jOf^cgm3
+!s100 b6i=Kg<T?Ca>FD1LCK80S3
+R6
+31
+R7
+!i10b 1
+Z16 !s108 1678689488.000000
+Z17 !s90 -reportprogress|300|-93|-work|work|E:/exp1/FPGA_EXP1_tb.vhd|
+Z18 !s107 E:/exp1/FPGA_EXP1_tb.vhd|
+!i113 0
+R11
+R12
+Aarch_tb
+R2
+R3
+DEx4 work 12 fpga_exp1_tb 0 22 1:<L1_keD8H<k0jOf^cgm3
+l18
+L7
+VkR5KOCU^jM<RHZXLM9ESL3
+!s100 U`3QjAkn>EM>zj]7jfPao0
+R6
+31
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R11
+R12
